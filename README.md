@@ -1,6 +1,6 @@
 # 投资分析数据中台（Investment Intelligence Platform）
 
-🚀 一个模拟投后管理的数据中台服务，具备自动打分模型、REST & GraphQL 双接口、Streamlit 前端界面以及 Docker 一键部署能力。适用于展示数据工程、API设计、产品理解的综合能力。
+🚀 一个模拟投后管理的数据中台服务，具备自动打分模型、REST & GraphQL 双接口、Streamlit 前端界面以及 Docker 一键部署能力，展示数据工程、API设计、产品理解的综合能力。
 
 【项目功能】
 - 企业信息 + 新闻模拟抓取并入库
