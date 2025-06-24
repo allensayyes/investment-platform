@@ -30,7 +30,7 @@
 git clone https://github.com/your-username/investment-platform.git
 cd investment-platform
 pip install -r requirements.txt
-python Tencent_Data_API.py```
+python Tencent_Data_API.py
 
 访问接口：
 
@@ -38,22 +38,14 @@ REST: http://localhost:8000/companies
 
 GraphQL: http://localhost:8000/graphql
 
-🐳 Docker 部署
-bash
-Copy
-Edit
+## 🐳 Docker 部署
 docker compose build
 docker compose up
-📬 接口示例
+
+## 📬 接口示例
 ✅ REST 查询公司评分：
-http
-Copy
-Edit
 GET /companies?min_score=70&keyword=ai
 ✅ GraphQL 查询公司列表：
-graphql
-Copy
-Edit
 {
   companies(minScore: 80, keyword: "biotech") {
     companyName
@@ -61,20 +53,12 @@ Edit
   }
 }
 
-📊 Streamlit 前端页面
-bash
-Copy
-Edit
+## 📊 Streamlit 前端页面
 streamlit run streamlit_app.py
 分数滑动选择器 + 公司名模糊搜索
-
 结果表格实时刷新
 
-📁 目录结构
-kotlin
-Copy
-Edit
-investment-platform/
+## 📁 目录结构
 ├── Tencent_Data_API.py        ← FastAPI + GraphQL 主逻辑
 ├── streamlit_app.py           ← Streamlit 可视化界面
 ├── requirements.txt           ← Python 依赖项
