@@ -54,10 +54,5 @@ Tencent/
 ├── Dockerfile                 → 镜像构建配置
 ├── data/                      → 数据文件夹（CSV + SQLite）
 
-【面试官可能关注的问题】
-- 为什么用 REST + GraphQL 并存？
-- 如何将项目扩展为生产环境（认证机制、错误日志、定时任务、CI/CD 等）
-- 如何在云端部署并处理持久化存储？
-
 【LICENSE】
 MIT License. For demo, education and interview purposes.
