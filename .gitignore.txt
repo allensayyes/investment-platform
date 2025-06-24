@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.db
+
+# Jupyter/IPython
+.ipynb_checkpoints
+
+# Environments
+.venv/
+env/
+venv/
+
+# VS Code
+.vscode/
+
+# Streamlit cache
+.streamlit/
+
+# Data files
+data/*.csv
+data/*.db
+*.log
+
+# Mac
+.DS_Store
+
+# Docker
+*.pid
