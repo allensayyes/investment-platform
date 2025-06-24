@@ -30,7 +30,7 @@
 git clone https://github.com/your-username/investment-platform.git
 cd investment-platform
 pip install -r requirements.txt
-python Tencent_Data_API.py
+python Tencent_Data_API.py```
 
 访问接口：
 
